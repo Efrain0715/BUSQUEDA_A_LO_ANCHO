@@ -8,7 +8,7 @@ from collections import deque
 
 # Grafo representando síntomas (nodos) conectados con posibles diagnósticos, con un grado de severidad
 grafo = {
-    "dolor de pecho": ["infarto", "ansiedad", "reflujo",],
+    "dolor en el pecho": ["infarto", "ansiedad", "reflujo",],
     "dificultad para respirar": ["insuficiencia respiratoria", "asma", "ansiedad"],
     "desmayo": ["infarto", "hemorragia cerebral", "deshidratación"],
     "fiebre alta": ["sepsis", "infección", "gripe"],
